@@ -120,4 +120,4 @@ def CountRice(imgin):
                 r = r - color
                 if r in xoa:
                     label[x,y] = 0
-    return label.astype(np.uint8)
+    return label.astype(np.uint8), dem
